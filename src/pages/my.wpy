@@ -1,0 +1,21 @@
+<template>
+  我的
+</template>
+
+<script>
+  import wepy from 'wepy';
+
+  export default class Page extends wepy.page {
+    config = {};
+
+    data = {};
+    methods = {};
+
+    events = {};
+
+    onLoad() {
+    };
+
+    // Other properties
+  }
+</script>

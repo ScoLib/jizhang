@@ -22,6 +22,8 @@
       <view class="userinfo-nickname">{{ userInfo.nickName }}</view>
     </view>
 
+    <van-button type="primary">按钮</van-button>
+
     <panel>
       <view class="title" slot="title">测试数据绑定</view>
 
@@ -107,7 +109,10 @@
 
   export default class Index extends wepy.page {
     config = {
-      navigationBarTitleText: 'test'
+      navigationBarTitleText: 'test',
+      usingComponents: {
+        // "van-button": "npm/vant-weapp/dist/button/index"
+      }
     }
     components = {
       panel: Panel,
