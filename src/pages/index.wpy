@@ -111,7 +111,7 @@
     config = {
       navigationBarTitleText: 'test',
       usingComponents: {
-        // "van-button": "npm/vant-weapp/dist/button/index"
+        "van-button": "../components/van/button/index"
       }
     }
     components = {
